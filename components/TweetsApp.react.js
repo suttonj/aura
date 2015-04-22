@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require('react');
-var Tweets = require('./Tweets.react.js');
+var Map = require('./Map.react.js');
 var Loader = require('./Loader.react.js');
 var NotificationBar = require('./NotificationBar.react.js');
 
@@ -173,12 +173,11 @@ module.exports = TweetsApp = React.createClass({
 
     return (
       <div className="tweets-app">
-        <Tweets tweets={this.state.tweets} />
+        <Map tweets={this.state.tweets} />
         <Loader paging={this.state.paging}/>
-        <NotificationBar count={this.state.count} onShowNewTweets={this.showNewTweets}/>
       </div>
     )
 
   }
-
+//<NotificationBar count={this.state.count} onShowNewTweets={this.showNewTweets}/>
 });

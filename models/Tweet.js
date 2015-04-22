@@ -9,6 +9,8 @@ var schema = new mongoose.Schema({
   , body       : String
   , date       : Date
   , screenname : String
+  , lat        : String
+  , long       : String
 });
 
 // Create a static getTweets method to return tweet data from the db

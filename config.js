@@ -1,8 +1,10 @@
+
 module.exports = {
+  db: 'mongodb://localhost/aura',
   twitter: {
-    consumer_key: 'g9xpOwRQvn1Yy5c2cOip28V2B',
-    consumer_secret: 'hTP1CpviMHEJcdXpWUC8s44qHjOCAuqkpcZBKm3qtGb7Uo2GTi',
-    access_token_key: '1122906733-oiqpR1vUWWxY5EMNCUzL4Jmnlfnq72400sBcm7k',
-    access_token_secret: 'DK0Ql7QFlzFfqOhnEOgrZeQSXXMFGtLbKfQyUJdC2BVmG'
+    consumer_key: 'SvvC8kvtpcVj5P6lIOgHBKRrh',
+    consumer_secret: 'SQuGryZAC6sVB6SFOvAb3vRl0YXZsH7786483oVlG9mlufRgQq',
+    access_token_key: '17788727-jEAZcO0KICV2lwEhmQXCkWrX9cE08na9DSxHNgBof',
+    access_token_secret: 'OWEHceHyIVGrNIgmqXRE2H6pe1ycPnEmmQrhkrRPMTVdO'
   }
 }
